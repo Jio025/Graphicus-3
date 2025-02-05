@@ -11,7 +11,6 @@
 #include <random>
 #include <sstream>
 #include "monInterface.h"
-#include "Vecteur.h"
 
 using namespace std;
 
@@ -100,6 +99,8 @@ void Cercle::afficher(ostream& s) { s << "Cercle (x = " << ancrage.x << ", y = "
 // Couches
 Couche::Couche() : etat(INITIALISEE) {}
 Couche::~Couche() { reinitialiserCouche(); }
+
+vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->vecteurCouche.contenuVecteur[vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive]->detruireForme();
 
 bool Couche::ajoutForme(Forme* forme_ptr) {
 	if (nb_item >= MAX_FORMES || etat != ACTIVE || !forme_ptr) {
@@ -194,8 +195,8 @@ bool Canevas::ajouterCouche() {
     Couche* nouvelle_couche = new Couche();
 
     bool aucune_couche_active = true;
-    for (int i = 0; i < couches.size(); i++) {
-        Couche* couche = vecteur_forme.obtenirCouche(i);
+    for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
+        Couche* couche = vecteur_forme[i];
         if (couche) {
             // We can try to change the state to ACTIVE - if it fails, 
             // it means the layer is already active
@@ -218,17 +219,19 @@ bool Canevas::ajouterCouche() {
         nouvelle_couche->changerEtat(INITIALISEE);
     }
 
-    return vecteur_forme.ajouterCouche(nouvelle_couche);
+    vecteur_forme += nouvelle_couche;
+    return true;
 }
+
 
 bool Canevas::retirerCouche(int index) {
     if (index < 0 || index >= vecteur_forme.tailleVecteur())
         return false;
 
-    Couche* couche = vecteur_forme.obtenirCouche(index);
+    Couche* couche = vecteur_forme[index];
     if (!couche) return false;
 
-    Couche* couche_retiree = vecteur_forme.retirerCouche(index);
+    Couche* couche_retiree = retirerElement(index);
     if (couche_retiree) {
         couche_retiree->reinitialiserCouche();  // Do this before deleting
         delete couche_retiree;
@@ -249,7 +252,7 @@ bool Canevas::reinitialiserCouche(int index) {
         return false;
     }
 
-    Couche* couche = vecteur_forme.obtenirCouche(index);
+    Couche* couche = vecteur_forme[index];
     if (!couche) { return false; }
 
     couche->reinitialiserCouche();
@@ -260,11 +263,11 @@ bool Canevas::activerCouche(int index) {
     if (index < 0 || index >= vecteur_forme.tailleVecteur())
         return false;
 
-    Couche* couche = vecteur_forme.obtenirCouche(index);
+    Couche* couche = vecteur_forme[index];
     if (!couche) return false;
 
     for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
-        Couche* c = vecteur_forme.obtenirCouche(i);
+        Couche* c = vecteur_forme[i];
         if (c && i != index) {
             c->changerEtat(INACTIVE);
         }
@@ -277,7 +280,7 @@ bool Canevas::desactiverCouche(int index) {
     if (index < 0 || index >= vecteur_forme.tailleVecteur())
         return false;
 
-    Couche* couche = vecteur_forme.obtenirCouche(index);
+    Couche* couche = vecteur_forme[index];
     if (!couche) return false;
 
     return couche->changerEtat(INACTIVE);
@@ -287,7 +290,7 @@ bool Canevas::ajouterForme(Forme* p_forme) {
     if (!p_forme) return false;
 
     for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
-        Couche* couche = vecteur_forme.obtenirCouche(i);
+        Couche* couche = vecteur_forme[i];
         if (couche) {
             if (couche->ajoutForme(p_forme)) {
                 return true;
@@ -300,7 +303,7 @@ bool Canevas::ajouterForme(Forme* p_forme) {
 
 bool Canevas::retirerForme(int index) {
     for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
-        Couche* couche = vecteur_forme.obtenirCouche(i);
+        Couche* couche = vecteur_forme[i];
         if (couche) {
             Forme* forme = couche->retraitForme(index);
             if (forme) {
@@ -315,7 +318,7 @@ bool Canevas::retirerForme(int index) {
 double Canevas::aire() {
     double aire_totale = 0.0;
     for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
-        Couche* couche = vecteur_forme.obtenirCouche(i);
+        Couche* couche = vecteur_forme[i];
         if (couche) {
             aire_totale += couche->aireTotale();
         }
@@ -326,7 +329,7 @@ double Canevas::aire() {
 bool Canevas::translater(int deltaX, int deltaY) {
     bool translate = false;
     for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
-        Couche* couche = vecteur_forme.obtenirCouche(i);
+        Couche* couche = vecteur_forme[i];
         if (couche) {
             if (couche->translaterCouche(deltaX, deltaY)) {
                 translate = true;
@@ -343,7 +346,7 @@ void Canevas::afficher(ostream& s) {
     else {
         for (int i = 0; i < vecteur_forme.tailleVecteur(); i++) {
             s << "--- Couche " << i << " ---" << endl;
-            Couche* couche = vecteur_forme.obtenirCouche(i);
+            Couche* couche = vecteur_forme[i];
             if (couche) {
                 couche->afficherCouche(s);
             }
@@ -353,3 +356,63 @@ void Canevas::afficher(ostream& s) {
         }
     }
 }
+
+bool GraphicusGUI::ouvrirFichier(const char* nom) {
+    nom >> vecteurCanevas;
+};
+bool GraphicusGUI::sauvegarderFichier(const char* nom) {
+    vecteurCanevas << nom;
+};
+//Actions de canevas, de couches et de formes
+void GraphicusGUI::reinitialiserCanevas() {
+    vecteurCanevas.viderVecteur();
+};
+void GraphicusGUI::coucheAjouter() {
+    vecteurCanevas.ajouterCouche();
+};
+void GraphicusGUI::coucheRetirer() {
+    vecteurCanevas.retirerCouche(vecteurCanevas.indexCourant);
+};
+void GraphicusGUI::coucheTranslater(int deltaX, int deltaY) {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->translater(deltaX, deltaY);
+};
+void GraphicusGUI::ajouterCercle(int x, int y, int rayon) {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->ajouterCercle(x, y, rayon);
+};
+void GraphicusGUI::ajouterRectangle(int x, int y, int long_x, int long_y) {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->ajouterRectangle(x, y, long_x, long_y);
+};
+void GraphicusGUI::ajouterCarre(int x, int y, int cote) {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->ajouterCarre(x, y, cote);
+};
+void GraphicusGUI::retirerForme() {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->vecteurCouche.contenuVecteur[infoCouche.formeActive]->detruireForme();
+};
+void GraphicusGUI::modePileChange(bool mode) {
+    pile = mode;
+};
+//Actions de navigation
+void GraphicusGUI::couchePremiere() {
+    infoCanevas.coucheActive = 1;
+};
+void GraphicusGUI::couchePrecedente() {
+    infoCanevas.coucheActive = infoCanevas.coucheActive - 1;
+};
+void GraphicusGUI::coucheSuivante() {
+    infoCanevas.coucheActive = infoCanevas.coucheActive + 1;
+};
+void GraphicusGUI::coucheDerniere() {
+    infoCanevas.coucheActive = infoCanevas.nbCouches;
+};
+void GraphicusGUI::formePremiere() {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->vecteurCouche.contenuVecteur[1];
+};
+void GraphicusGUI::formePrecedente() {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = infoCouche.formeActive += 1;
+};
+void GraphicusGUI::formeSuivante() {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = infoCouche.formeActive += 1;
+};
+void GraphicusGUI::formeDerniere() {
+    vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.nbFormesCouche;
+};
