@@ -1,0 +1,183 @@
+﻿  monInterface.cpp
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,9): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,24): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,9): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,26): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(108,2): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(116,21): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(118,3): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(118,25): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(121,2): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(128,21): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(134,18): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(144,3): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(153,10): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(154,3): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(181,4): error C2065: 'formes' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(197,25): error C2065: 'couches' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(198,26): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(221,12): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(225,31): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(228,22): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(231,30): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(241,13): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(242,23): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(248,31): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(252,22): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(260,31): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(263,22): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(266,25): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(267,21): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(277,31): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(280,22): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(289,25): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(290,26): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(302,25): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(303,26): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(317,25): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(318,26): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(328,25): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(329,26): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(340,9): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(344,29): error C2065: 'vecteur_forme' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.cpp(346,30): error C2065: 'vecteur_forme' : identificateur non déclaré
+  testGraphicusGUI.cpp
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,9): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(94,24): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,9): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\monInterface.h(123,26): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+  Vecteur.cpp
+  Génération de code en cours...
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(13,26): error C2061: erreur de syntaxe : identificateur 'ostream'
+  (compiler le fichier source 'Vecteur.cpp')
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(13,26):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+          lors de la compilation du modèle de classe 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(6,10): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(6,10): error C2509: '{ctor}' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(13,11): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(13,11): error C2509: '{dtor}' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(18,15): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(18,15): error C2509: 'viderVecteur' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(26,15): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(26,15): error C2509: 'doublerCapaciteVecteur' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(42,15): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(42,15): error C2761: 'bool Vecteur<T>::ajouterCouche(T *)' : la redéclaration du membre n'est pas autorisée
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(42,29): error C2065: 'Couche' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(42,37): error C2065: 'couche' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(42,45): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(43,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(45,5): error C2059: erreur de syntaxe : 'if'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(45,29): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(45,29): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(48,20): error C2065: 'taille' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(48,5): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(48,32): error C2065: 'couche' : identificateur non déclaré
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(49,5): error C2059: erreur de syntaxe : 'return'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(50,1): error C2059: erreur de syntaxe : '}'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(50,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(52,18): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(52,43): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(52,43): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,7): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,18): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,18): error C2761: 'T *Vecteur<T>::obtenirCouche(int)' : la redéclaration du membre n'est pas autorisée
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,43): error C2059: erreur de syntaxe : '{'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,43): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(65,43): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(70,15): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(70,15): error C2509: 'afficherVecteur' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(78,15): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(78,15): error C2509: 'estVide' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(82,14): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(82,14): error C2509: 'capaciteVecteur' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(86,14): error C2955: 'Vecteur' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
+C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.cpp(86,14): error C2509: 'tailleVecteur' : fonction membre non déclarée dans 'Vecteur'
+      C:\Users\Client\Desktop\testgraphicusgui-v1.0\TestGraphicusGUI-v1.0\Vecteur.h(3,7):
+      voir la déclaration de 'Vecteur'
+  
