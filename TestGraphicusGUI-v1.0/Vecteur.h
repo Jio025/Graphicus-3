@@ -10,7 +10,16 @@ public:
     }
 
     ~Vecteur() {
+        viderVecteur();
         delete[] contenuVecteur;
+    }
+
+    void viderVecteur() {
+        for (int i = 0; i < taille; ++i) {
+            delete contenuVecteur[i];
+            contenuVecteur[i] = T();
+        }
+        taille = 0;
     }
 
     T& operator[](int index) {
