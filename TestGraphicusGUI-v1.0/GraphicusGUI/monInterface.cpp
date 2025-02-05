@@ -13,6 +13,7 @@
 #include "monInterface.h"
 #include "Vecteur.h"
 
+
 using namespace std;
 
 MonInterface::MonInterface(const char* theName) : GraphicusGUI(theName)
@@ -98,7 +99,7 @@ void GraphicusGUI::ajouterCarre(int x, int y, int cote) {
 };
 
 void GraphicusGUI::retirerForme() {
-	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->vecteurCouche.contenuVecteur[infoCouche.formeActive]->detruireForme();
+	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->vecteurCouche.contenuVecteur[vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive]->detruireForme();
 };
 
 void GraphicusGUI::modePileChange(bool mode){
@@ -122,7 +123,7 @@ void GraphicusGUI::coucheSuivante() {
 };
 
 void GraphicusGUI::coucheDerniere() {
-	infoCanevas.coucheActive = infoCanevas.nbCouche;
+	infoCanevas.coucheActive = infoCanevas.nbCouches;
 };
 
 void GraphicusGUI::formePremiere() {
@@ -130,15 +131,15 @@ void GraphicusGUI::formePremiere() {
 };
 
 void GraphicusGUI::formePrecedente() {
-	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = infoCouche.formeActive - 1;
+	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive += 1;
 };
 
 void GraphicusGUI::formeSuivante() {
-	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = infoCouche.formeActive + 1;
+	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive += 1;
 };
 
 void GraphicusGUI::formeDerniere() {
-	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = infoCouche.nbFormesCouche;
+	vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.formeActive = vecteurCanevas.contenuVecteur[infoCanevas.coucheActive]->infoCouche.nbFormesCouche;
 };
 
 
