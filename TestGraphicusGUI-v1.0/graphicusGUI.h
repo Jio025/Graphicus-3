@@ -41,6 +41,9 @@ struct Informations
 	char informationForme[50]; // Informations format libre: rayon, etc.
 };
 
+Vecteur vecteurCanevas;
+Informations infoCanevas;
+
 class GraphicusGUI : public QMainWindow
 {
 	Q_OBJECT
