@@ -12,6 +12,7 @@
 #define MONINTERFACE_H
 
 #include "graphicusGUI.h"
+#include "Vecteur.h"
 
 const int MAX_FORMES = 5;
 enum Etat { INITIALISEE, ACTIVE, INACTIVE };
@@ -119,8 +120,21 @@ public:
 	bool translater(int deltaX, int deltaY);
 	void afficher(ostream& s);
 
+	Couche* retirerElement(int index) {
+		if (index < 0 || index >= vecteur_forme.tailleVecteur()) return nullptr;
+
+		Couche* couche = vecteur_forme[index];
+
+		for (int i = index; i < vecteur_forme.tailleVecteur() - 1; i++) {
+			vecteur_forme[i] = vecteur_forme[i + 1];
+		}
+
+		vecteur_forme[vecteur_forme.tailleVecteur() - 1] = nullptr;
+		return couche;
+	}
+
 private:
-	Vecteur<Couche*> couches;
+	Vecteur<Couche*> vecteur_forme;
 
 };
 
@@ -129,7 +143,6 @@ class MonInterface : public GraphicusGUI
 public:
 	MonInterface(const char *theName = nullptr);
 	virtual void reinitialiserCanevas();
-	virtual void coucheAjouter();
 };
 
 #endif // MONINTERFACE_H
