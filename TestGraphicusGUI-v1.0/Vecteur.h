@@ -10,18 +10,23 @@ public:
     }
 
     ~Vecteur() {
-        viderVecteur();
         delete[] contenuVecteur;
     }
 
     T& operator[](int index) {
         if (index < 0 || index >= taille) {
-            trow std::out_of_range("Index hors limite !")
+            throw std::out_of_range("Index hors limite !");
+        }
+        return contenuVecteur[index];
+    }
+    const T& operator[](int index) const {
+        if (index < 0 || index >= taille) {
+            throw std::out_of_range("Index hors limite !");
         }
         return contenuVecteur[index];
     }
 
-    T& operator +=(const T& donnees) {
+    Vecteur<T>& operator +=(const T & donnees) {
         if (taille >= capacite) {
             doublerCapaciteVecteur();
         }
@@ -35,7 +40,7 @@ public:
         }
         return os;
     }
-    friend std::istream& operator>>(std::istream& is, Vecteur<T>&) {
+    friend std::istream& operator>>(std::istream& is, Vecteur<T>& v) {
         T valeur;
         is >> valeur;
         v += valeur;
@@ -45,60 +50,23 @@ public:
         if (indexCourant < taille - 1) {
             ++indexCourant;
         }
-        return this*;
+        return *this;
     }
     Vecteur<T>& operator--() {
         if (indexCourant > 0) {
             --indexCourant;
         }
-        return this*;
+        return *this;
     }
-    /*void viderVecteur() {
-        for (int i = 0; i < taille; ++i) {
-            delete contenuVecteur[i];
-            contenuVecteur[i] = nullptr;
-        }
-        taille = 0;
-    }
-    bool ajouterCouche(Couche* couche) {
-        if (!couche) return false;
 
-        if (taille >= capacite) {
-            doublerCapaciteVecteur();
-        }
-        contenuVecteur[taille++] = couche;
-        return true;
-    }
-    Couche* retirerCouche(int index) {
-        if (index < 0 || index >= taille) return nullptr;
 
-        Couche* couche = contenuVecteur[index];
-
-        for (int i = index; i < taille - 1; i++) {
-            contenuVecteur[i] = contenuVecteur[i + 1];
-        }
-
-        contenuVecteur[taille--] = nullptr;
-        return couche;
-    }
-    Couche* obtenirCouche(int index) {
-        if (index < 0 || index >= taille) return nullptr;
-        return contenuVecteur[index];
-    }
-    void afficherVecteur(ostream& s) {
-        for (int i = 0; i < taille; i++) {
-            if (contenuVecteur[i]) {
-                contenuVecteur[i]->afficherCouche(s);
-            }
-        }
-    }*/
-    bool estVide() {
+    bool estVide(){
         return taille == 0;
     }
-    int capaciteVecteur() {
+    int capaciteVecteur(){
         return capacite;
     }
-    int tailleVecteur() {
+    int tailleVecteur(){
         return taille;
     }
 private:
