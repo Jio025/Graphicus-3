@@ -1,0 +1,6 @@
+﻿  monInterface.cpp
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(66,46): warning C4100: 'nom' : paramètre formel non référencé
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(71,51): warning C4100: 'nom' : paramètre formel non référencé
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(95,11): warning C4189: 'cercle' : variable locale initialisée mais non référencée
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(118,40): warning C4100: 'mode' : paramètre formel non référencé
+  testGraphicusGUI.vcxproj -> C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\debug\testGraphicusGUI.exe
