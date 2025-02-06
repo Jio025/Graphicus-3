@@ -1,0 +1,945 @@
+﻿  monInterface.cpp
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(38,15): error C3646: 'infoCouche' : spécificateur de substitution inconnu
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(38,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(47,17): error C3646: 'infoCanevas' : spécificateur de substitution inconnu
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(47,4): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'monInterface.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2): error C2678: '>>' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'const char *' (ou il n'existe pas de conversion acceptable)
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpen.h(22,27):
+      est peut-être 'QDataStream &operator >>(QDataStream &,QPen &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPen &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qregularexpression.h(186,28):
+      ou       'QDataStream &operator >>(QDataStream &,QRegularExpression &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QRegularExpression &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qlocale.h(1201,28):
+      ou       'QDataStream &operator >>(QDataStream &,QLocale &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QLocale &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qurl.h(324,28):
+      ou       'QDataStream &operator >>(QDataStream &,QUrl &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QUrl &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpicture.h(51,38):
+      ou       'QDataStream &operator >>(QDataStream &,QPicture &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPicture &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcursor.h(95,27):
+      ou       'QDataStream &operator >>(QDataStream &,QCursor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QCursor &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qsizepolicy.h(109,42):
+      ou       'QDataStream &operator >>(QDataStream &,QSizePolicy &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QSizePolicy &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qfont.h(355,38):
+      ou       'QDataStream &operator >>(QDataStream &,QFont &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QFont &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpalette.h(159,27):
+      ou       'QDataStream &operator >>(QDataStream &,QPalette &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPalette &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qbrush.h(105,27):
+      ou       'QDataStream &operator >>(QDataStream &,QBrush &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QBrush &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qvariant.h(727,21):
+      ou       'QDataStream &operator >>(QDataStream &,QVariant::Type &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QVariant::Type &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qvariant.h(720,28):
+      ou       'QDataStream &operator >>(QDataStream &,QVariant &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QVariant &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qtextstream.h(206,21):
+      ou       'QTextStream &operator >>(QTextStream &,QTextStreamFunction)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QTextStream &operator >>(QTextStream &,QTextStreamFunction)' : impossible de convertir l'argument 1 de 'const char *' en 'QTextStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qicon.h(261,38):
+      ou       'QDataStream &operator >>(QDataStream &,QIcon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QIcon &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpixmap.h(140,38):
+      ou       'QDataStream &operator >>(QDataStream &,QPixmap &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPixmap &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qimage.h(336,27):
+      ou       'QDataStream &operator >>(QDataStream &,QImage &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QImage &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qtransform.h(324,27):
+      ou       'QDataStream &operator >>(QDataStream &,QTransform &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QTransform &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(428,28):
+      ou       'QDataStream &operator >>(QDataStream &,QLineF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QLineF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(185,28):
+      ou       'QDataStream &operator >>(QDataStream &,QLine &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QLine &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qregion.h(110,38):
+      ou       'QDataStream &operator >>(QDataStream &,QRegion &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QRegion &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(141,27):
+      ou       'QDataStream &operator >>(QDataStream &,QPolygonF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPolygonF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(74,27):
+      ou       'QDataStream &operator >>(QDataStream &,QPolygon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPolygon &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcolor.h(27,27):
+      ou       'QDataStream &operator >>(QDataStream &,QColor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QColor &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(627,28):
+      ou       'QDataStream &operator >>(QDataStream &,QRectF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QRectF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(148,28):
+      ou       'QDataStream &operator >>(QDataStream &,QRect &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QRect &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(320,28):
+      ou       'QDataStream &operator >>(QDataStream &,QPointF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPointF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(114,28):
+      ou       'QDataStream &operator >>(QDataStream &,QPoint &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QPoint &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(309,28):
+      ou       'QDataStream &operator >>(QDataStream &,QSizeF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QSizeF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(109,28):
+      ou       'QDataStream &operator >>(QDataStream &,QSize &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QSize &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qkeysequence.h(22,27):
+      ou       'QDataStream &operator >>(QDataStream &,QKeySequence &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QKeySequence &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(358,28):
+      ou       'QDataStream &operator >>(QDataStream &,QMarginsF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QMarginsF &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(91,28):
+      ou       'QDataStream &operator >>(QDataStream &,QMargins &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QMargins &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(674,21):
+      ou       'QDataStream &operator >>(QDataStream &,QKeyCombination &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QKeyCombination &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qstring.h(1493,28):
+      ou       'QDataStream &operator >>(QDataStream &,QString &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QString &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qbytearray.h(726,28):
+      ou       'QDataStream &operator >>(QDataStream &,QByteArray &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QByteArray &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qchar.h(627,28):
+      ou       'QDataStream &operator >>(QDataStream &,QChar &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QChar &)' : impossible de convertir l'argument 1 de 'const char *' en 'QDataStream &'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\Vecteur.h(51,26):
+      ou       'std::istream &Vecteur<Couche *>::operator >>(std::istream &,Vecteur<Couche *> &)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::istream &Vecteur<Couche *>::operator >>(std::istream &,Vecteur<Couche *> &)' : impossible de convertir l'argument 1 de 'const char *' en 'std::istream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(615,49):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_istream_operator<QDataStream,T,void>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,QDataStream&>::type operator >>(QDataStream &,std::pair<_Ty1,_Ty2> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<QTypeTraits::has_istream_operator<QDataStream,T,void>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,QDataStream&>::type operator >>(QDataStream &,std::pair<_Ty1,_Ty2> &)' : nous n’avons pas pu déduire modèle de l'argument 'std::pair<_Ty1,_Ty2> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(603,77):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMultiMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMultiMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QMultiMap<Key,T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(591,72):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QMap<Key,T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(579,78):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMultiHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QMultiHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QMultiHash<Key,T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(566,73):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_istream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QHash<Key,T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(554,62):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QSet<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QSet<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QSet<T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(542,63):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QList<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_istream_operator<QDataStream,T,void>>>,QDataStream&>::type operator >>(QDataStream &,QList<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QList<T> &' de 'Vecteur<Couche *>'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(536,1):
+      ou       'enable_if<std::is_enum<_Ty>::value,QDataStream&>::type operator >>(QDataStream &,T &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'initialisation' : impossible de convertir de 'const char *' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(521,21):
+      ou       'QDataStream &operator >>(QDataStream &,QFlags<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'QDataStream &operator >>(QDataStream &,QFlags<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'QFlags<T> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(907,9):
+      ou       '_Istr &&std::operator >>(_Istr &&,_Ty &&)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          '_Istr &&std::operator >>(_Istr &&,_Ty &&)' : nous n’avons pas pu déduire modèle de l'argument '__formal'.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(906,102):
+              « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(894,31):
+      ou       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<char,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(888,31):
+      ou       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<char,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(865,32):
+      ou       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<_Elem,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(859,31):
+      ou       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<char,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(854,31):
+      ou       'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<char,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\istream(849,32):
+      ou       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<_Elem,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3370,32):
+      ou       'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_istream<_Elem,_Traits> &' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef(43,27):
+      ou       'std::byte std::operator >>(const std::byte,const _IntType) noexcept'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+          'std::byte std::operator >>(const std::byte,const _IntType) noexcept' : nous n’avons pas pu déduire modèle de l'argument '__formal'.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef(36,39):
+              'std::enable_if_t<false,int>' : échec de spécialisation du modèle d'alias
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(65,2):
+      lors de la tentative de mise en correspondance de la liste des arguments '(const char *, Vecteur<Couche *>)'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9): error C2678: '<<' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'Vecteur<Couche *>' (ou il n'existe pas de conversion acceptable)
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpen.h(103,21):
+      est peut-être 'QDebug operator <<(QDebug,const QPen &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPen &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpen.h(21,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QPen &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPen &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qstyleoption.h(749,25):
+      ou       'QDebug operator <<(QDebug,const QStyleOption &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QStyleOption &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qstyleoption.h(748,25):
+      ou       'QDebug operator <<(QDebug,const QStyleOption::OptionType &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QStyleOption::OptionType &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qabstractitemmodel.h(237,33):
+      ou       'QDebug operator <<(QDebug,const QPersistentModelIndex &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPersistentModelIndex &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qabstractitemmodel.h(175,22):
+      ou       'QDebug operator <<(QDebug,const QModelIndex &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QModelIndex &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qregularexpression.h(275,22):
+      ou       'QDebug operator <<(QDebug,const QRegularExpressionMatch &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QRegularExpressionMatch &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qregularexpression.h(191,22):
+      ou       'QDebug operator <<(QDebug,QRegularExpression::PatternOptions)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,QRegularExpression::PatternOptions)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qregularexpression.h(190,22):
+      ou       'QDebug operator <<(QDebug,const QRegularExpression &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QRegularExpression &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qregularexpression.h(185,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QRegularExpression &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QRegularExpression &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qlocale.h(1205,22):
+      ou       'QDebug operator <<(QDebug,const QLocale &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QLocale &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qlocale.h(1200,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QLocale &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QLocale &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qurl.h(328,22):
+      ou       'QDebug operator <<(QDebug,const QUrl &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QUrl &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qurl.h(323,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QUrl &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QUrl &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpicture.h(50,38):
+      ou       'QDataStream &operator <<(QDataStream &,const QPicture &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPicture &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qiodevice.h(143,22):
+      ou       'QDebug operator <<(QDebug,QIODeviceBase::OpenMode)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,QIODeviceBase::OpenMode)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qwidget.h(921,25):
+      ou       'QDebug operator <<(QDebug,const QWidget *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QWidget *)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcursor.h(99,21):
+      ou       'QDebug operator <<(QDebug,const QCursor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QCursor &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcursor.h(94,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QCursor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QCursor &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qsizepolicy.h(173,25):
+      ou       'QDebug operator <<(QDebug,const QSizePolicy &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QSizePolicy &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtWidgets\qsizepolicy.h(108,42):
+      ou       'QDataStream &operator <<(QDataStream &,const QSizePolicy &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QSizePolicy &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qfont.h(359,32):
+      ou       'QDebug operator <<(QDebug,const QFont &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QFont &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qfont.h(354,38):
+      ou       'QDataStream &operator <<(QDataStream &,const QFont &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QFont &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpalette.h(163,21):
+      ou       'QDebug operator <<(QDebug,const QPalette &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPalette &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpalette.h(141,38):
+      ou       'QDataStream &operator <<(QDataStream &,const QPalette &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPalette &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qbrush.h(109,21):
+      ou       'QDebug operator <<(QDebug,const QBrush &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QBrush &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qbrush.h(104,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QBrush &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QBrush &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qaction.h(242,21):
+      ou       'QDebug operator <<(QDebug,const QAction *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QAction *)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qvariant.h(815,22):
+      ou       'QDebug operator <<(QDebug,const QVariant::Type)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QVariant::Type)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qvariant.h(735,21):
+      ou       'QDataStream &operator <<(QDataStream &,const QVariant::Type)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QVariant::Type)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qvariant.h(721,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QVariant &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QVariant &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(574,15):
+      ou       'QDebug operator <<(QDebug,QKeyCombination)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,QKeyCombination)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qtextstream.h(212,21):
+      ou       'QTextStream &operator <<(QTextStream &,QTextStreamManipulator)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QTextStream &operator <<(QTextStream &,QTextStreamManipulator)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QTextStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qtextstream.h(209,21):
+      ou       'QTextStream &operator <<(QTextStream &,QTextStreamFunction)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QTextStream &operator <<(QTextStream &,QTextStreamFunction)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QTextStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qicon.h(277,21):
+      ou       'QDebug operator <<(QDebug,const QIcon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QIcon &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qicon.h(260,38):
+      ou       'QDataStream &operator <<(QDataStream &,const QIcon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QIcon &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpixmap.h(180,21):
+      ou       'QDebug operator <<(QDebug,const QPixmap &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPixmap &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpixmap.h(175,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QPixmap &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPixmap &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qimage.h(340,21):
+      ou       'QDebug operator <<(QDebug,const QImage &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QImage &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qimage.h(335,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QImage &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QImage &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qtransform.h(328,21):
+      ou       'QDebug operator <<(QDebug,const QTransform &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QTransform &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qtransform.h(323,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QTransform &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QTransform &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(427,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QLineF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QLineF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(423,22):
+      ou       'QDebug operator <<(QDebug,const QLineF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QLineF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(184,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QLine &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QLine &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qline.h(180,22):
+      ou       'QDebug operator <<(QDebug,const QLine &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QLine &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qregion.h(143,21):
+      ou       'QDebug operator <<(QDebug,const QRegion &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QRegion &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qregion.h(109,38):
+      ou       'QDataStream &operator <<(QDataStream &,const QRegion &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QRegion &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(140,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QPolygonF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPolygonF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(133,21):
+      ou       'QDebug operator <<(QDebug,const QPolygonF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPolygonF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(73,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QPolygon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPolygon &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qpolygon.h(66,21):
+      ou       'QDebug operator <<(QDebug,const QPolygon &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPolygon &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcolor.h(26,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QColor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QColor &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qcolor.h(23,21):
+      ou       'QDebug operator <<(QDebug,const QColor &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QColor &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(914,22):
+      ou       'QDebug operator <<(QDebug,const QRectF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QRectF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(626,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QRectF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QRectF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(479,22):
+      ou       'QDebug operator <<(QDebug,const QRect &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QRect &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qrect.h(147,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QRect &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QRect &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(410,22):
+      ou       'QDebug operator <<(QDebug,const QPointF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPointF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(319,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QPointF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPointF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(208,22):
+      ou       'QDebug operator <<(QDebug,const QPoint &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QPoint &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qpoint.h(113,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QPoint &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QPoint &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(409,22):
+      ou       'QDebug operator <<(QDebug,const QSizeF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QSizeF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(308,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QSizeF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QSizeF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(203,22):
+      ou       'QDebug operator <<(QDebug,const QSize &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QSize &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qsize.h(108,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QSize &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QSize &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qkeysequence.h(190,21):
+      ou       'QDebug operator <<(QDebug,const QKeySequence &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QKeySequence &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtGui\qkeysequence.h(21,27):
+      ou       'QDataStream &operator <<(QDataStream &,const QKeySequence &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QKeySequence &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(513,22):
+      ou       'QDebug operator <<(QDebug,const QMarginsF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QMarginsF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(357,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QMarginsF &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QMarginsF &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(262,22):
+      ou       'QDebug operator <<(QDebug,const QMargins &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QMargins &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qmargins.h(90,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QMargins &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QMargins &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qobject.h(479,22):
+      ou       'QDebug operator <<(QDebug,const QObject *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QObject *)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(682,21):
+      ou       'QDataStream &operator <<(QDataStream &,QKeyCombination)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,QKeyCombination)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qstring.h(1492,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QString &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QString &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qbytearray.h(725,28):
+      ou       'QDataStream &operator <<(QDataStream &,const QByteArray &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,const QByteArray &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qchar.h(626,28):
+      ou       'QDataStream &operator <<(QDataStream &,QChar)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,QChar)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\Vecteur.h(45,26):
+      ou       'std::ostream &Vecteur<Couche *>::operator <<(std::ostream &,const Vecteur<Couche *> &)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::ostream &Vecteur<Couche *>::operator <<(std::ostream &,const Vecteur<Couche *> &)' : impossible de convertir l'argument 1 de 'Vecteur<Couche *>' en 'std::ostream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(567,15):
+      ou       'QDebug operator <<(QDebug,const QFlags<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QFlags<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QFlags<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(531,15):
+      ou       'QDebug operator <<(QDebug,T)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,T)' : nous n’avons pas pu déduire modèle de l'argument 'A'.
+              C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(527,78):
+              'type' n'est pas membre de 'std::enable_if<false,void>'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtr1common(48,8):
+              voir la déclaration de 'std::enable_if<false,void>'
+              C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(527,78):
+              erreur de syntaxe : absence de '>' avant l'identificateur '<missingId>'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(519,1):
+      ou       'std::enable_if<QtPrivate::IsQEnumHelper<T>::Value,QDebug>::type operator <<(QDebug,T)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'initialisation' : impossible de convertir de 'Vecteur<Couche *>' en 'QDebug'
+              C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+              Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(483,15):
+      ou       'QDebug operator <<(QDebug,const QTaggedPointer<T,Tag> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QTaggedPointer<T,Tag> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QTaggedPointer<T,Tag> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(473,15):
+      ou       'QDebug operator <<(QDebug,const QSharedPointer<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDebug operator <<(QDebug,const QSharedPointer<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QSharedPointer<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(417,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const QContiguousCache<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const QContiguousCache<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QContiguousCache<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(411,52):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QSet<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QSet<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QSet<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(403,39):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::pair<_Ty1,_Ty2> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::pair<_Ty1,_Ty2> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::pair<_Ty1,_Ty2> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(393,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::optional<_Ty> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::optional<_Ty> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::optional<_Ty> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(387,68):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMultiHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMultiHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMultiHash<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(381,63):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QHash<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(375,67):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMultiMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMultiMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMultiMap<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(369,62):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMap<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(363,39):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::multimap<_Kty,_Ty,_Pr,_Alloc> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(357,39):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::map<_Kty,_Ty,_Pr,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>,QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::map<_Kty,_Ty,_Pr,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::map<_Kty,_Ty,_Pr,_Alloc> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(351,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,std::initializer_list<_Elem>)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,std::initializer_list<_Elem>)' : nous n’avons pas pu déduire modèle de l'argument 'std::initializer_list<_Elem>' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(345,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::list<_Ty,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::list<_Ty,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::list<_Ty,_Alloc> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(339,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::vector<_Ty,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const std::vector<_Ty,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::vector<_Ty,_Alloc> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(333,34):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const QVarLengthArray<T,Prealloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDebug,T,void>>,QDebug>::type operator <<(QDebug,const QVarLengthArray<T,Prealloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QVarLengthArray<T,Prealloc> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdebug.h(327,53):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QList<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_ostream_operator<QDebug,T,void>>>,QDebug>::type operator <<(QDebug,const QList<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QList<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(622,49):
+      ou       'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDataStream,T,void>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,QDataStream&>::type operator <<(QDataStream &,const std::pair<_Ty1,_Ty2> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<QTypeTraits::has_ostream_operator<QDataStream,T,void>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,QDataStream&>::type operator <<(QDataStream &,const std::pair<_Ty1,_Ty2> &)' : nous n’avons pas pu déduire modèle de l'argument 'const std::pair<_Ty1,_Ty2> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(609,77):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMultiMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMultiMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMultiMap<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(597,72):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMap<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMap<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMap<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMap<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMap<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(585,78):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMultiHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QMultiHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QMultiHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QMultiHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QMultiHash<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(573,73):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QHash<Key,T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QHash<Key,T>,Key>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>,std::disjunction<std::is_base_of<QHash<Key,T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QHash<Key,T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QHash<Key,T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(560,62):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QSet<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QSet<T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QSet<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QSet<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(548,63):
+      ou       'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QList<T> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'enable_if<std::conjunction_v<std::disjunction<std::is_base_of<QList<T>,T>,QTypeTraits::has_ostream_operator<QDataStream,T,void>>>,QDataStream&>::type operator <<(QDataStream &,const QList<T> &)' : nous n’avons pas pu déduire modèle de l'argument 'const QList<T> &' de 'const char *'.
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(531,1):
+      ou       'enable_if<std::is_enum<_Ty>::value,QDataStream&>::type operator <<(QDataStream &,const T &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'initialisation' : impossible de convertir de 'Vecteur<Couche *>' en 'QDataStream &'
+      C:\Qt\6.8.2\msvc2022_64\include\QtCore\qdatastream.h(517,21):
+      ou       'QDataStream &operator <<(QDataStream &,QFlags<T>)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'QDataStream &operator <<(QDataStream &,QFlags<T>)' : nous n’avons pas pu déduire modèle de l'argument 'QFlags<T>' de 'const char *'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1088,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1011,9):
+      ou       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)' : nous n’avons pas pu déduire modèle de l'argument '__formal'.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(1010,103):
+              « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(953,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(947,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(942,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(936,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(900,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(857,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(819,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(774,31):
+      ou       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<char,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(738,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ostream(694,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3761,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1979,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(3419,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\__msvc_string_view.hpp(1796,32):
+      ou       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)' : nous n’avons pas pu déduire modèle de l'argument 'std::basic_ostream<_Elem,_Traits> &' de 'Vecteur<Couche *>'.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef(37,27):
+      ou       'std::byte std::operator <<(const std::byte,const _IntType) noexcept'
+          C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+          'std::byte std::operator <<(const std::byte,const _IntType) noexcept' : nous n’avons pas pu déduire modèle de l'argument '__formal'.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef(36,39):
+              'std::enable_if_t<false,int>' : échec de spécialisation du modèle d'alias
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(69,9):
+      lors de la tentative de mise en correspondance de la liste des arguments '(Vecteur<Couche *>, const char *)'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(87,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(87,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(92,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(92,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(97,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(97,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(102,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(102,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(106,69): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(106,93): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(106,96): error C2039: 'infoCouche' n'est pas membre de 'Couche'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(23,7):
+      voir la déclaration de 'Couche'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(118,10): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(122,10): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(122,45): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(126,10): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(126,45): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(130,10): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(130,45): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(134,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(134,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(138,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(138,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(138,75): error C2039: 'infoCouche' n'est pas membre de 'Couche'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(23,7):
+      voir la déclaration de 'Couche'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(142,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(142,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(142,75): error C2039: 'infoCouche' n'est pas membre de 'Couche'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(23,7):
+      voir la déclaration de 'Couche'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,48): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,72): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,75): error C2039: 'infoCouche' n'est pas membre de 'Couche'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(23,7):
+      voir la déclaration de 'Couche'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,146): error C2039: 'infoCanevas' n'est pas membre de 'Canevas'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(25,7):
+      voir la déclaration de 'Canevas'
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,170): error C7732: expected an expression before ']'
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\monInterface.cpp(146,173): error C2039: 'infoCouche' n'est pas membre de 'Couche'
+      C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(23,7):
+      voir la déclaration de 'Couche'
+  
+  testGraphicusGUI.cpp
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(38,15): error C3646: 'infoCouche' : spécificateur de substitution inconnu
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\couche.h(38,2): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(47,17): error C3646: 'infoCanevas' : spécificateur de substitution inconnu
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+C:\Users\alexi\source\repos\Graphicus-03\Graphicus-03\canevas.h(47,4): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source 'testGraphicusGUI.cpp')
+  
+  Génération de code en cours...
