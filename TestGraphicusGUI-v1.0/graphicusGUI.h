@@ -41,8 +41,11 @@ struct Informations
 	char informationForme[50]; // Informations format libre: rayon, etc.
 };
 
-Vecteur vecteurCanevas;
-Informations infoCanevas;
+struct Coordonnee
+{
+	int x;
+	int y;
+};
 
 class GraphicusGUI : public QMainWindow
 {
@@ -106,5 +109,6 @@ private:
 	QSpinBox* xSpin, * ySpin, * v1Spin, * v2Spin, * dxSpin, * dySpin;
 	QToolButton* surlignageButton, * pileButton, * infoButton;
 };
+
 
 #endif //GRAPHICUSGUI_H

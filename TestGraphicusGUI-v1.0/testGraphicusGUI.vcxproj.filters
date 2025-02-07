@@ -33,7 +33,16 @@
     <ClCompile Include="testGraphicusGUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vecteur.cpp">
+    <ClCompile Include="Forme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormeGeometriques.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Couche.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Canevas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +51,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Vecteur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Forme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormeGeometriques.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Couche.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Canevas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

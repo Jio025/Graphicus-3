@@ -1,3 +1,3 @@
-L'application TestGraphicusGUI affiche aléatoirement des formes chaque fois que la commande de réinitialisation du canevas est donnée. Toutes les autres méthodes virtuelles n'ont pas été redéfinies.
+Installation:
 
-Pour la compilation de cet exemple: consultez l'annexe sur GraphicusGUI dans le guide étudiant.
+Pour installer la librairie GraphicusGUI, il suffit d'en mettre une copie dans un endroit que votre compilateur peut trouver. Un endroit simple est dans le même répertoire que le code source de votre projet qui utilise cette librairie.

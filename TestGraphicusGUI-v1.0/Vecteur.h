@@ -3,6 +3,7 @@
 #include <istream>
 template <typename T>
 class Vecteur {
+    friend class Canevas;
 public:
 
     Vecteur() : taille(0), capacite(1), indexCourant(0) {
@@ -35,7 +36,7 @@ public:
         return contenuVecteur[index];
     }
 
-    Vecteur<T>& operator +=(const T & donnees) {
+    Vecteur<T>& operator +=(const T& donnees) {
         if (taille >= capacite) {
             doublerCapaciteVecteur();
         }
@@ -43,7 +44,7 @@ public:
         return *this; // For chaining
     }
 
-    friend std::ostream& operator <<(std::ostream& os, const Vecteur<T>& v){
+    friend std::ostream& operator <<(std::ostream& os, const Vecteur<T>& v) {
         for (int i = 0; i < v.taille; i++) {
             os << v.contenuVecteur[i] << " ";
         }
@@ -67,15 +68,21 @@ public:
         }
         return *this;
     }
+    int getIndexCourant() {
+        return indexCourant; // Getter function for private indexCourant
+    }
 
+    void setIndexCourant(int valeur) {
+        indexCourant = valeur;
+    }
 
-    bool estVide(){
+    bool estVide() const {
         return taille == 0;
     }
-    int capaciteVecteur(){
+    int capaciteVecteur() const {
         return capacite;
     }
-    int tailleVecteur(){
+    int tailleVecteur() const {
         return taille;
     }
 private:
@@ -91,8 +98,8 @@ private:
         contenuVecteur = nouveau;
         capacite = nouvelleCapacite;
     }
-    int taille;
-    int capacite;
     int indexCourant;
     T* contenuVecteur; // 1 is default value
+    int taille;
+    int capacite;
 };

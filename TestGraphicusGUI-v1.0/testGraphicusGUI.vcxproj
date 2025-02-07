@@ -142,11 +142,18 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Canevas.cpp" />
+    <ClCompile Include="Couche.cpp" />
+    <ClCompile Include="Forme.cpp" />
+    <ClCompile Include="FormeGeometriques.cpp" />
     <ClCompile Include="monInterface.cpp" />
     <ClCompile Include="testGraphicusGUI.cpp" />
-    <ClCompile Include="Vecteur.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Canevas.h" />
+    <ClInclude Include="Couche.h" />
+    <ClInclude Include="Forme.h" />
+    <ClInclude Include="FormeGeometriques.h" />
     <ClInclude Include="monInterface.h" />
     <ClInclude Include="Vecteur.h" />
   </ItemGroup>
